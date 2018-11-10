@@ -1,0 +1,13 @@
+---
+- name: Create User Group
+  action: group 
+    name={{a_user}}
+
+- name: Create User
+  user:
+    name: "{{ a_user}}"
+    password: "{{a_user_password}}"
+    shell: /bin/bash
+    groups: "{{ a_user}}"
+    append: yes
+    comment: Utente applicativo

@@ -1,0 +1,5 @@
+# vars
+env_name: development
+
+apache_email_admin: 'manca@acme.com'
+apache_servername: 'qa.local'

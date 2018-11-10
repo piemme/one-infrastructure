@@ -1,0 +1,5 @@
+# vars
+env_name: production
+
+apache_email_admin: 'manca@acme.com'
+apache_servername: 'prod.local'

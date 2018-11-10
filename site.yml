@@ -1,0 +1,11 @@
+---
+# This playbook install the "qa stack"
+# ansible-playbook -vv site.yml  --inventory-file=./production
+- hosts: all
+  become: yes
+  vars_files:
+    - 'common/group_vars/all'
+  roles:
+    - user
+    - epel
+    - geerlingguy.nodejs

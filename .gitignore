@@ -1,0 +1,4 @@
+.vagrant
+secret
+production/inventory
+site.retry
